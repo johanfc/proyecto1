@@ -45,7 +45,7 @@ public class MainTest {
             System.out.println(it.next() + " " + respuestas[indice]);
             if (respuestas[indice].equalsIgnoreCase("NO")) {
                 flag = false;
-                break;//hotfixes2 already solved
+                break;//hotfixes2 already solved to prod
             }
             indice++;
         }
