@@ -40,7 +40,7 @@ public class MainTest {
         //deberes.forEach(deber-> System.out.println(deber));
         Iterator<String> it = this.deberes.iterator();
         int indice = 0;//primer indice
-        boolean flag = true;
+        boolean flag = true; // primer booleano
         while (it.hasNext()) {
             System.out.println(it.next() + " " + respuestas[indice]);
             if (respuestas[indice].equalsIgnoreCase("NO")) {
