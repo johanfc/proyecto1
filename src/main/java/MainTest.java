@@ -39,7 +39,7 @@ public class MainTest {
         System.out.println("Gracias, has respondido todas las preguntas.");
         //deberes.forEach(deber-> System.out.println(deber));
         Iterator<String> it = this.deberes.iterator();
-        int indice = 0;
+        int indice = 0;//primer indice
         boolean flag = true;
         while (it.hasNext()) {
             System.out.println(it.next() + " " + respuestas[indice]);
