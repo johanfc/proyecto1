@@ -41,7 +41,7 @@ public class MainTest {
         Iterator<String> it = this.deberes.iterator();
         int indice = 0;//primer indice
         boolean flag = true; // primer booleano
-        while (it.hasNext()) {
+        while (it.hasNext()) {//from hotfix1
             System.out.println(it.next() + " " + respuestas[indice]);
             if (respuestas[indice].equalsIgnoreCase("NO")) {
                 flag = false;
