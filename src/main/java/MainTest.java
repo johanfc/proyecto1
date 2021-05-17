@@ -49,12 +49,12 @@ public class MainTest {
             }
             indice++;
         }
-        if (!flag)//
+        if (!flag)//today work on develop
             System.out.println("Lo sentimos no puedes salir a la piscina ");
         else
             System.out.println("Felicitaciones te puedes ir a bañar");
 
-
+        //hotfix 5 solved
         // TODO: 16/05/21 <code></code>
 
 
