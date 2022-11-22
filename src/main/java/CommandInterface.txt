@@ -7,3 +7,4 @@ six-johan
 seven-martin
 eigth-martin
 nine-martin
+ten-martin-pdf-config
